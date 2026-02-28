@@ -20,7 +20,7 @@ console.log(`The percentage change is ${percentageChange}`);
 // line 10: console.log(`The percentage change is ${percentageChange}`);
 
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
-// The error is occurring on 4 where we are trying to convert the string values of carPrice and priceAfterOneYear to numbers using the Number function. The error is occurring because the replaceAll method is being called on a string that has not been updated with the new value after the first replaceAll call. To fix this problem, we can update the carPrice and priceAfterOneYear variables with the new values after the replaceAll calls. For example:
+// Error on line 5 where comma was missing in replaceAll function call. 
 
 // c) Identify all the lines that are variable reassignment statements
 // Line 4: carPrice = Number(carPrice.replaceAll(",", ""));
