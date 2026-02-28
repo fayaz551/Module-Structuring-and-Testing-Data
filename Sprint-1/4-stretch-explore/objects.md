@@ -92,11 +92,17 @@ warn
 
 Try also entering `typeof console`
 This prints 'Object'.
+
+
 Answer the following questions:
 
 What does `console` store?
-object
-What does the syntax `console.log` or `console.assert` mean? In particular, what does the `.` mean?
-console.log("Hello")  calls the log method to print something to the console.
+Answer: console is an object that stores functions you can call to inspect values, debug code, and print information.
 
-console.assert(condition, "Message")  calls the assert method to check a condition, and only prints the message if the condition is false.
+What does the syntax `console.log` or `console.assert` mean? In particular, what does the `.` mean?
+console is a built‑in object provided by the browser or Node.js. It contains many debugging functions.
+The dot (.) is the property access operator. It means go inside this object and get the property or method with this name.
+
+
+
+
